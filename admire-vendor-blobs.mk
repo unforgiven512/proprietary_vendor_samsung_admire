@@ -115,3 +115,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/admire/proprietary/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/admire/proprietary/memsicd:system/bin/memsicd
+
+## Fix Logcat
+PRODUCT_COPY_FILES += \
+    vendor/samsung/admire/proprietary/liblog.so:system/lib/liblog.so \
+    vendor/samsung/admire/proprietary/logcat:system/bin/logcat \
+    vendor/samsung/admire/proprietary/logwrapper:system/bin/logwrapper
